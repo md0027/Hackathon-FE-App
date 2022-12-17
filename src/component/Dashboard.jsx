@@ -18,13 +18,13 @@ export const Dashboard=()=>{
 
         let response= await sendRequest({
             url:"https://jsonplaceholder.typicode.com/posts",
-            method:"GET",
-            // body:{
-            //     id: 1,
-            //     title: '...',
-            //     body: '...',
-            //     userId: 1
-            //   }
+            method:"POST",
+            body:{
+                id: 1,
+                title: '...',
+                body: '...',
+                userId: 1
+              }
         })
         console.log(response)
         return response
