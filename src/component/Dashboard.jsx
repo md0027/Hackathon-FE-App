@@ -36,7 +36,6 @@ export const Dashboard=()=>{
         abcd()
     },[])
 
-    // console.log(postApi)
 
     return(
         <div>
